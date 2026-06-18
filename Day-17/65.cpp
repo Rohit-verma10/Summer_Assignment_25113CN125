@@ -6,7 +6,7 @@ int main(){
     int size1=sizeof(arr1)/sizeof(arr1[0]);
     int size2=sizeof(arr2)/sizeof(arr2[0]);
     int sizemerged=size1+size2;
-    int merged[sizemerged];
+    int merged[11];
     int k=0;
     for (int i=0;i<size1;i++) {
         merged[k++]=arr1[i];
